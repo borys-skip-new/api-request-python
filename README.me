@@ -1,0 +1,133 @@
+# API Request Python Pet Project
+
+This project is a Python-based test automation framework for testing API endpoints. It includes test cases for user management, employee management, and resource management. The framework uses `pytest` for test execution and includes logging and reporting capabilities.
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Setup Instructions](#setup-instructions)
+- [Running Tests](#running-tests)
+- [Logging](#logging)
+- [Test Reporting](#test-reporting)
+- [Contributing](#contributing)
+
+---
+
+## Features
+
+- **API Testing**: Test cases for CRUD operations on users, employees, and resources.
+- **Logging**: Logs API requests and responses for debugging and auditing.
+- **Test Reporting**: Generates HTML reports for test results using `pytest-html`.
+- **Parameterization**: Supports parameterized test cases for flexibility.
+- **Environment Variables**: Uses `.env` files for managing API base URLs and other configurations.
+
+---
+
+## Project Structure
+
+```
+api-request-python/
+├── dto/
+│   ├── employee.py          # Employee-related API logic
+│   ├── user_class.py        # User-related API logic
+│   ├── resource_class.py    # Resource-related API logic
+├── tests/
+│   ├── api/
+│   │   ├── test_reqres_api_test.py  # Test cases for API endpoints
+│   ├── conftest.py          # Shared fixtures for tests
+├── utils/
+│   ├── logger/
+│   │   ├── logger.py        # Logger utility for API requests and responses
+├── test_data/
+│   ├── expected_resource.json  # Test data for resource validation
+├── .env                     # Environment variables for API configuration
+├── pytest.ini               # Pytest configuration file
+├── requirements.txt         # Python dependencies
+├── README.md                # Project documentation
+```
+
+---
+
+## Setup Instructions
+
+### Prerequisites
+
+- Python 3.8 or higher
+- `pip` (Python package manager)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/borys-skip-new/api-request-python.git
+   cd api-request-python
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Create a `.env` file in the project root and configure the API base URL:
+   ```
+   BASE_URL=https://reqres.in/api
+   ```
+
+---
+
+## Running Tests
+
+### Run All Tests
+
+To execute all tests, run:
+```bash
+pytest
+```
+
+### Run Specific Tests
+
+To run a specific test file:
+```bash
+pytest test_reqres_api_test.py
+```
+
+To run a specific test case:
+```bash
+pytest tests/api/test_reqres_api_test.py::TestEmployee::test_create_employee
+```
+
+---
+
+## Logging
+
+The project logs API requests and responses to both the console and a log file.
+
+- **Log File**: Logs are saved in the `logs/api_requests.log` file.
+- **Log Example**:
+  ```
+  2025-04-08 12:00:00 - API Logger - INFO - Request: POST https://example.com/api/users
+  2025-04-08 12:00:00 - API Logger - INFO - Payload: {"name": "John Doe", "job": "Developer"}
+  2025-04-08 12:00:01 - API Logger - INFO - Response: 201 https://example.com/api/users
+  2025-04-08 12:00:01 - API Logger - INFO - Response Body: {"id": "123", "name": "John Doe", "job": "Developer", "createdAt": "2025-04-08T12:00:00Z"}
+  ```
+
+---
+
+## Test Reporting
+
+The project uses `pytest-html` to generate HTML reports for test results.
+
+### Generate an HTML Report
+
+Run the following command to generate a test report:
+```bash
+pytest --html=reports/test_report.html --self-contained-html
+```
+
+### View the Report
+
+Open the generated `reports/test_report.html` file in a browser to view the test results.
+

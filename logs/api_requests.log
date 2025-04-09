@@ -1,0 +1,180 @@
+2025-04-08 10:48:43,584 - API Logger - INFO - Request: POST https://reqres.in/api/users
+2025-04-08 10:48:43,584 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'leader'}
+2025-04-08 10:48:43,772 - API Logger - INFO - Response: 201 https://reqres.in/api/users
+2025-04-08 10:48:43,772 - API Logger - INFO - Response Body: {"name":"morpheus","job":"leader","id":"359","createdAt":"2025-04-08T07:48:43.740Z"}
+2025-04-08 10:48:43,774 - API Logger - INFO - Request: PUT https://reqres.in/api/users/359
+2025-04-08 10:48:43,774 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'test engineer', 'id': '359', 'createdAt': '2025-04-08T07:48:43.740Z', 'updatedAt': ''}
+2025-04-08 10:48:43,946 - API Logger - INFO - Response: 200 https://reqres.in/api/users/359
+2025-04-08 10:48:43,946 - API Logger - INFO - Response Body: {"name":"morpheus","job":"test engineer","id":"359","createdAt":"2025-04-08T07:48:43.740Z","updatedAt":"2025-04-08T07:48:43.915Z"}
+2025-04-08 10:48:43,948 - API Logger - INFO - Request: PUT https://reqres.in/api/users/359
+2025-04-08 10:48:43,948 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'matrix operator', 'id': '359', 'createdAt': '2025-04-08T07:48:43.740Z', 'updatedAt': '2025-04-08T07:48:43.915Z'}
+2025-04-08 10:48:44,125 - API Logger - INFO - Response: 200 https://reqres.in/api/users/359
+2025-04-08 10:48:44,125 - API Logger - INFO - Response Body: {"name":"morpheus","job":"matrix operator","id":"359","createdAt":"2025-04-08T07:48:43.740Z","updatedAt":"2025-04-08T07:48:44.091Z"}
+2025-04-08 10:48:44,126 - API Logger - INFO - Request: PUT https://reqres.in/api/users/359
+2025-04-08 10:48:44,126 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'oracle assistant', 'id': '359', 'createdAt': '2025-04-08T07:48:43.740Z', 'updatedAt': '2025-04-08T07:48:44.091Z'}
+2025-04-08 10:48:44,285 - API Logger - INFO - Response: 200 https://reqres.in/api/users/359
+2025-04-08 10:48:44,285 - API Logger - INFO - Response Body: {"name":"morpheus","job":"oracle assistant","id":"359","createdAt":"2025-04-08T07:48:43.740Z","updatedAt":"2025-04-08T07:48:44.254Z"}
+2025-04-08 10:48:44,286 - API Logger - INFO - Request: DELETE https://reqres.in/api/users/359
+2025-04-08 10:48:44,457 - API Logger - INFO - Response: 204 https://reqres.in/api/users/359
+2025-04-08 10:48:44,457 - API Logger - INFO - Response Body: 
+2025-04-08 11:38:36,933 - API Logger - INFO - Request: POST https://reqres.in/api/users
+2025-04-08 11:38:36,933 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'leader'}
+2025-04-08 11:38:37,120 - API Logger - INFO - Response: 201 https://reqres.in/api/users
+2025-04-08 11:38:37,120 - API Logger - INFO - Response Body: {"name":"morpheus","job":"leader","id":"450","createdAt":"2025-04-08T08:38:37.089Z"}
+2025-04-08 11:38:37,121 - API Logger - INFO - Request: PUT https://reqres.in/api/users/450
+2025-04-08 11:38:37,121 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'test engineer', 'id': '450', 'createdAt': '2025-04-08T08:38:37.089Z', 'updatedAt': ''}
+2025-04-08 11:38:37,289 - API Logger - INFO - Response: 200 https://reqres.in/api/users/450
+2025-04-08 11:38:37,289 - API Logger - INFO - Response Body: {"name":"morpheus","job":"test engineer","id":"450","createdAt":"2025-04-08T08:38:37.089Z","updatedAt":"2025-04-08T08:38:37.257Z"}
+2025-04-08 11:38:37,301 - API Logger - INFO - Request: PUT https://reqres.in/api/users/450
+2025-04-08 11:38:37,301 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'matrix operator', 'id': '450', 'createdAt': '2025-04-08T08:38:37.089Z', 'updatedAt': '2025-04-08T08:38:37.257Z'}
+2025-04-08 11:38:37,468 - API Logger - INFO - Response: 200 https://reqres.in/api/users/450
+2025-04-08 11:38:37,468 - API Logger - INFO - Response Body: {"name":"morpheus","job":"matrix operator","id":"450","createdAt":"2025-04-08T08:38:37.089Z","updatedAt":"2025-04-08T08:38:37.435Z"}
+2025-04-08 11:38:37,472 - API Logger - INFO - Request: PUT https://reqres.in/api/users/450
+2025-04-08 11:38:37,472 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'oracle assistant', 'id': '450', 'createdAt': '2025-04-08T08:38:37.089Z', 'updatedAt': '2025-04-08T08:38:37.435Z'}
+2025-04-08 11:38:37,649 - API Logger - INFO - Response: 200 https://reqres.in/api/users/450
+2025-04-08 11:38:37,649 - API Logger - INFO - Response Body: {"name":"morpheus","job":"oracle assistant","id":"450","createdAt":"2025-04-08T08:38:37.089Z","updatedAt":"2025-04-08T08:38:37.612Z"}
+2025-04-08 11:38:37,653 - API Logger - INFO - Request: PATCH https://reqres.in/api/users/450
+2025-04-08 11:38:37,653 - API Logger - INFO - Payload: {'name': 'Updated Name', 'job': 'Updated Job'}
+2025-04-08 11:38:37,832 - API Logger - INFO - Response: 200 https://reqres.in/api/users/450
+2025-04-08 11:38:37,832 - API Logger - INFO - Response Body: {"name":"Updated Name","job":"Updated Job","updatedAt":"2025-04-08T08:38:37.796Z"}
+2025-04-08 11:38:37,835 - API Logger - INFO - Request: DELETE https://reqres.in/api/users/450
+2025-04-08 11:38:37,994 - API Logger - INFO - Response: 204 https://reqres.in/api/users/450
+2025-04-08 11:38:37,994 - API Logger - INFO - Response Body: 
+2025-04-08 11:39:20,491 - API Logger - INFO - Request: POST https://reqres.in/api/users
+2025-04-08 11:39:20,492 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'leader'}
+2025-04-08 11:39:20,657 - API Logger - INFO - Response: 201 https://reqres.in/api/users
+2025-04-08 11:39:20,657 - API Logger - INFO - Response Body: {"name":"morpheus","job":"leader","id":"528","createdAt":"2025-04-08T08:39:20.623Z"}
+2025-04-08 11:39:20,659 - API Logger - INFO - Request: PUT https://reqres.in/api/users/528
+2025-04-08 11:39:20,659 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'test engineer', 'id': '528', 'createdAt': '2025-04-08T08:39:20.623Z', 'updatedAt': ''}
+2025-04-08 11:39:20,888 - API Logger - INFO - Response: 200 https://reqres.in/api/users/528
+2025-04-08 11:39:20,888 - API Logger - INFO - Response Body: {"name":"morpheus","job":"test engineer","id":"528","createdAt":"2025-04-08T08:39:20.623Z","updatedAt":"2025-04-08T08:39:20.822Z"}
+2025-04-08 11:39:20,890 - API Logger - INFO - Request: PUT https://reqres.in/api/users/528
+2025-04-08 11:39:20,890 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'matrix operator', 'id': '528', 'createdAt': '2025-04-08T08:39:20.623Z', 'updatedAt': '2025-04-08T08:39:20.822Z'}
+2025-04-08 11:39:21,057 - API Logger - INFO - Response: 200 https://reqres.in/api/users/528
+2025-04-08 11:39:21,057 - API Logger - INFO - Response Body: {"name":"morpheus","job":"matrix operator","id":"528","createdAt":"2025-04-08T08:39:20.623Z","updatedAt":"2025-04-08T08:39:21.021Z"}
+2025-04-08 11:39:21,058 - API Logger - INFO - Request: PUT https://reqres.in/api/users/528
+2025-04-08 11:39:21,058 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'oracle assistant', 'id': '528', 'createdAt': '2025-04-08T08:39:20.623Z', 'updatedAt': '2025-04-08T08:39:21.021Z'}
+2025-04-08 11:39:21,225 - API Logger - INFO - Response: 200 https://reqres.in/api/users/528
+2025-04-08 11:39:21,226 - API Logger - INFO - Response Body: {"name":"morpheus","job":"oracle assistant","id":"528","createdAt":"2025-04-08T08:39:20.623Z","updatedAt":"2025-04-08T08:39:21.194Z"}
+2025-04-08 11:39:21,227 - API Logger - INFO - Request: PATCH https://reqres.in/api/users/528
+2025-04-08 11:39:21,227 - API Logger - INFO - Payload: {'name': 'Updated Name', 'job': 'Updated Job'}
+2025-04-08 11:39:21,491 - API Logger - INFO - Response: 200 https://reqres.in/api/users/528
+2025-04-08 11:39:21,492 - API Logger - INFO - Response Body: {"name":"Updated Name","job":"Updated Job","updatedAt":"2025-04-08T08:39:21.453Z"}
+2025-04-08 11:39:21,493 - API Logger - INFO - Request: DELETE https://reqres.in/api/users/528
+2025-04-08 11:39:21,661 - API Logger - INFO - Response: 204 https://reqres.in/api/users/528
+2025-04-08 11:39:21,661 - API Logger - INFO - Response Body: 
+2025-04-08 11:48:57,628 - API Logger - INFO - Request: POST https://reqres.in/api/users
+2025-04-08 11:48:57,628 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'leader'}
+2025-04-08 11:48:57,841 - API Logger - INFO - Response: 201 https://reqres.in/api/users
+2025-04-08 11:48:57,842 - API Logger - INFO - Response Body: {"name":"morpheus","job":"leader","id":"143","createdAt":"2025-04-08T08:48:57.811Z"}
+2025-04-08 11:48:57,845 - API Logger - INFO - Request: PUT https://reqres.in/api/users/143
+2025-04-08 11:48:57,845 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'test engineer', 'id': '143', 'createdAt': '2025-04-08T08:48:57.811Z', 'updatedAt': ''}
+2025-04-08 11:48:58,009 - API Logger - INFO - Response: 200 https://reqres.in/api/users/143
+2025-04-08 11:48:58,009 - API Logger - INFO - Response Body: {"name":"morpheus","job":"test engineer","id":"143","createdAt":"2025-04-08T08:48:57.811Z","updatedAt":"2025-04-08T08:48:57.977Z"}
+2025-04-08 11:48:58,011 - API Logger - INFO - Request: PUT https://reqres.in/api/users/143
+2025-04-08 11:48:58,011 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'matrix operator', 'id': '143', 'createdAt': '2025-04-08T08:48:57.811Z', 'updatedAt': '2025-04-08T08:48:57.977Z'}
+2025-04-08 11:48:58,201 - API Logger - INFO - Response: 200 https://reqres.in/api/users/143
+2025-04-08 11:48:58,201 - API Logger - INFO - Response Body: {"name":"morpheus","job":"matrix operator","id":"143","createdAt":"2025-04-08T08:48:57.811Z","updatedAt":"2025-04-08T08:48:58.170Z"}
+2025-04-08 11:48:58,203 - API Logger - INFO - Request: PUT https://reqres.in/api/users/143
+2025-04-08 11:48:58,203 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'oracle assistant', 'id': '143', 'createdAt': '2025-04-08T08:48:57.811Z', 'updatedAt': '2025-04-08T08:48:58.170Z'}
+2025-04-08 11:48:58,371 - API Logger - INFO - Response: 200 https://reqres.in/api/users/143
+2025-04-08 11:48:58,371 - API Logger - INFO - Response Body: {"name":"morpheus","job":"oracle assistant","id":"143","createdAt":"2025-04-08T08:48:57.811Z","updatedAt":"2025-04-08T08:48:58.340Z"}
+2025-04-08 11:48:58,372 - API Logger - INFO - Request: PATCH https://reqres.in/api/users/143
+2025-04-08 11:48:58,372 - API Logger - INFO - Payload: {'name': 'Updated Name', 'job': 'Updated Job'}
+2025-04-08 11:48:58,685 - API Logger - INFO - Response: 200 https://reqres.in/api/users/143
+2025-04-08 11:48:58,685 - API Logger - INFO - Response Body: {"name":"Updated Name","job":"Updated Job","updatedAt":"2025-04-08T08:48:58.655Z"}
+2025-04-08 11:48:58,687 - API Logger - INFO - Request: DELETE https://reqres.in/api/users/143
+2025-04-08 11:48:58,883 - API Logger - INFO - Response: 204 https://reqres.in/api/users/143
+2025-04-08 11:48:58,883 - API Logger - INFO - Response Body: 
+2025-04-08 12:05:37,019 - API Logger - INFO - Starting test_create_employee
+2025-04-08 12:05:37,020 - API Logger - INFO - Request: POST https://reqres.in/api/users
+2025-04-08 12:05:37,020 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'leader'}
+2025-04-08 12:05:37,207 - API Logger - INFO - Response: 201 https://reqres.in/api/users
+2025-04-08 12:05:37,207 - API Logger - INFO - Response Body: {"name":"morpheus","job":"leader","id":"536","createdAt":"2025-04-08T09:05:37.178Z"}
+2025-04-08 12:05:37,207 - API Logger - INFO - Created employee: <dto.employee.Employee object at 0x7c605e13b290>
+2025-04-08 12:05:37,209 - API Logger - INFO - Request: PUT https://reqres.in/api/users/536
+2025-04-08 12:05:37,209 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'test engineer', 'id': '536', 'createdAt': '2025-04-08T09:05:37.178Z', 'updatedAt': ''}
+2025-04-08 12:05:37,377 - API Logger - INFO - Response: 200 https://reqres.in/api/users/536
+2025-04-08 12:05:37,378 - API Logger - INFO - Response Body: {"name":"morpheus","job":"test engineer","id":"536","createdAt":"2025-04-08T09:05:37.178Z","updatedAt":"2025-04-08T09:05:37.350Z"}
+2025-04-08 12:05:37,379 - API Logger - INFO - Request: PUT https://reqres.in/api/users/536
+2025-04-08 12:05:37,379 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'matrix operator', 'id': '536', 'createdAt': '2025-04-08T09:05:37.178Z', 'updatedAt': '2025-04-08T09:05:37.350Z'}
+2025-04-08 12:05:37,566 - API Logger - INFO - Response: 200 https://reqres.in/api/users/536
+2025-04-08 12:05:37,566 - API Logger - INFO - Response Body: {"name":"morpheus","job":"matrix operator","id":"536","createdAt":"2025-04-08T09:05:37.178Z","updatedAt":"2025-04-08T09:05:37.537Z"}
+2025-04-08 12:05:37,567 - API Logger - INFO - Request: PUT https://reqres.in/api/users/536
+2025-04-08 12:05:37,567 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'oracle assistant', 'id': '536', 'createdAt': '2025-04-08T09:05:37.178Z', 'updatedAt': '2025-04-08T09:05:37.537Z'}
+2025-04-08 12:05:37,737 - API Logger - INFO - Response: 200 https://reqres.in/api/users/536
+2025-04-08 12:05:37,737 - API Logger - INFO - Response Body: {"name":"morpheus","job":"oracle assistant","id":"536","createdAt":"2025-04-08T09:05:37.178Z","updatedAt":"2025-04-08T09:05:37.702Z"}
+2025-04-08 12:05:37,738 - API Logger - INFO - Request: PATCH https://reqres.in/api/users/536
+2025-04-08 12:05:37,738 - API Logger - INFO - Payload: {'name': 'Updated Name', 'job': 'Updated Job'}
+2025-04-08 12:05:37,910 - API Logger - INFO - Response: 200 https://reqres.in/api/users/536
+2025-04-08 12:05:37,910 - API Logger - INFO - Response Body: {"name":"Updated Name","job":"Updated Job","updatedAt":"2025-04-08T09:05:37.879Z"}
+2025-04-08 12:05:37,911 - API Logger - INFO - Request: DELETE https://reqres.in/api/users/536
+2025-04-08 12:05:38,078 - API Logger - INFO - Response: 204 https://reqres.in/api/users/536
+2025-04-08 12:05:38,078 - API Logger - INFO - Response Body: 
+2025-04-08 12:11:50,164 - API Logger - INFO - Starting test_create_employee
+2025-04-08 12:11:50,164 - API Logger - INFO - Request: POST https://reqres.in/api/users
+2025-04-08 12:11:50,164 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'leader'}
+2025-04-08 12:11:50,429 - API Logger - INFO - Response: 201 https://reqres.in/api/users
+2025-04-08 12:11:50,429 - API Logger - INFO - Response Body: {"name":"morpheus","job":"leader","id":"549","createdAt":"2025-04-08T09:11:50.402Z"}
+2025-04-08 12:11:50,429 - API Logger - INFO - Created employee: <dto.employee.Employee object at 0x77d90be2d430>
+2025-04-08 12:13:13,312 - API Logger - INFO - Starting test_create_employee
+2025-04-08 12:13:13,312 - API Logger - INFO - Request: POST https://reqres.in/api/users
+2025-04-08 12:13:13,312 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'leader'}
+2025-04-08 12:13:13,555 - API Logger - INFO - Response: 201 https://reqres.in/api/users
+2025-04-08 12:13:13,556 - API Logger - INFO - Response Body: {"name":"morpheus","job":"leader","id":"816","createdAt":"2025-04-08T09:13:13.517Z"}
+2025-04-08 12:16:07,566 - API Logger - INFO - Starting test_create_employee
+2025-04-08 12:16:07,566 - API Logger - INFO - Request: POST https://reqres.in/api/users
+2025-04-08 12:16:07,566 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'leader'}
+2025-04-08 12:16:07,740 - API Logger - INFO - Response: 201 https://reqres.in/api/users
+2025-04-08 12:16:07,740 - API Logger - INFO - Response Body: {"name":"morpheus","job":"leader","id":"609","createdAt":"2025-04-08T09:16:07.709Z"}
+2025-04-08 12:16:07,741 - API Logger - INFO - Created employee: {"name": "morpheus", "job": "leader", "id": "609", "createdAt": "2025-04-08T09:16:07.709Z", "updatedAt": ""}
+2025-04-08 12:21:38,149 - API Logger - INFO - Starting test_create_employee
+2025-04-08 12:21:38,149 - API Logger - INFO - Request: POST https://reqres.in/api/users
+2025-04-08 12:21:38,149 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'leader'}
+2025-04-08 12:21:38,320 - API Logger - INFO - Response: 201 https://reqres.in/api/users
+2025-04-08 12:21:38,320 - API Logger - INFO - Response Body: {"name":"morpheus","job":"leader","id":"566","createdAt":"2025-04-08T09:21:38.290Z"}
+2025-04-08 12:21:38,320 - API Logger - INFO - Created employee: {"name": "morpheus", "job": "leader", "id": "566", "createdAt": "2025-04-08T09:21:38.290Z", "updatedAt": ""}
+2025-04-08 12:21:38,321 - API Logger - INFO - Request: PUT https://reqres.in/api/users/566
+2025-04-08 12:21:38,321 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'test engineer', 'id': '566', 'createdAt': '2025-04-08T09:21:38.290Z', 'updatedAt': ''}
+2025-04-08 12:21:38,492 - API Logger - INFO - Response: 200 https://reqres.in/api/users/566
+2025-04-08 12:21:38,492 - API Logger - INFO - Response Body: {"name":"morpheus","job":"test engineer","id":"566","createdAt":"2025-04-08T09:21:38.290Z","updatedAt":"2025-04-08T09:21:38.461Z"}
+2025-04-08 12:21:38,494 - API Logger - INFO - Request: PUT https://reqres.in/api/users/566
+2025-04-08 12:21:38,494 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'matrix operator', 'id': '566', 'createdAt': '2025-04-08T09:21:38.290Z', 'updatedAt': '2025-04-08T09:21:38.461Z'}
+2025-04-08 12:21:38,656 - API Logger - INFO - Response: 200 https://reqres.in/api/users/566
+2025-04-08 12:21:38,656 - API Logger - INFO - Response Body: {"name":"morpheus","job":"matrix operator","id":"566","createdAt":"2025-04-08T09:21:38.290Z","updatedAt":"2025-04-08T09:21:38.628Z"}
+2025-04-08 12:21:38,657 - API Logger - INFO - Request: PUT https://reqres.in/api/users/566
+2025-04-08 12:21:38,658 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'oracle assistant', 'id': '566', 'createdAt': '2025-04-08T09:21:38.290Z', 'updatedAt': '2025-04-08T09:21:38.628Z'}
+2025-04-08 12:21:38,829 - API Logger - INFO - Response: 200 https://reqres.in/api/users/566
+2025-04-08 12:21:38,829 - API Logger - INFO - Response Body: {"name":"morpheus","job":"oracle assistant","id":"566","createdAt":"2025-04-08T09:21:38.290Z","updatedAt":"2025-04-08T09:21:38.792Z"}
+2025-04-08 12:21:38,832 - API Logger - INFO - Request: PATCH https://reqres.in/api/users/566
+2025-04-08 12:21:38,832 - API Logger - INFO - Payload: {'name': 'Updated Name', 'job': 'Updated Job'}
+2025-04-08 12:21:39,000 - API Logger - INFO - Response: 200 https://reqres.in/api/users/566
+2025-04-08 12:21:39,000 - API Logger - INFO - Response Body: {"name":"Updated Name","job":"Updated Job","updatedAt":"2025-04-08T09:21:38.971Z"}
+2025-04-08 12:21:39,002 - API Logger - INFO - Request: DELETE https://reqres.in/api/users/566
+2025-04-08 12:21:39,208 - API Logger - INFO - Response: 204 https://reqres.in/api/users/566
+2025-04-08 12:21:39,208 - API Logger - INFO - Response Body: 
+2025-04-08 12:44:40,407 - API Logger - INFO - Starting test_create_employee
+2025-04-08 12:44:40,407 - API Logger - INFO - Request: POST https://reqres.in/api/users
+2025-04-08 12:44:40,407 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'leader'}
+2025-04-08 12:44:40,574 - API Logger - INFO - Response: 201 https://reqres.in/api/users
+2025-04-08 12:44:40,574 - API Logger - INFO - Response Body: {"name":"morpheus","job":"leader","id":"582","createdAt":"2025-04-08T09:44:40.544Z"}
+2025-04-08 12:44:40,575 - API Logger - INFO - Created employee: {"name": "morpheus", "job": "leader", "id": "582", "createdAt": "2025-04-08T09:44:40.544Z", "updatedAt": ""}
+2025-04-08 12:44:40,576 - API Logger - INFO - Request: PUT https://reqres.in/api/users/582
+2025-04-08 12:44:40,576 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'test engineer', 'id': '582', 'createdAt': '2025-04-08T09:44:40.544Z', 'updatedAt': ''}
+2025-04-08 12:44:40,778 - API Logger - INFO - Response: 200 https://reqres.in/api/users/582
+2025-04-08 12:44:40,778 - API Logger - INFO - Response Body: {"name":"morpheus","job":"test engineer","id":"582","createdAt":"2025-04-08T09:44:40.544Z","updatedAt":"2025-04-08T09:44:40.749Z"}
+2025-04-08 12:44:40,780 - API Logger - INFO - Request: PUT https://reqres.in/api/users/582
+2025-04-08 12:44:40,780 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'matrix operator', 'id': '582', 'createdAt': '2025-04-08T09:44:40.544Z', 'updatedAt': '2025-04-08T09:44:40.749Z'}
+2025-04-08 12:44:40,951 - API Logger - INFO - Response: 200 https://reqres.in/api/users/582
+2025-04-08 12:44:40,952 - API Logger - INFO - Response Body: {"name":"morpheus","job":"matrix operator","id":"582","createdAt":"2025-04-08T09:44:40.544Z","updatedAt":"2025-04-08T09:44:40.914Z"}
+2025-04-08 12:44:40,953 - API Logger - INFO - Request: PUT https://reqres.in/api/users/582
+2025-04-08 12:44:40,953 - API Logger - INFO - Payload: {'name': 'morpheus', 'job': 'oracle assistant', 'id': '582', 'createdAt': '2025-04-08T09:44:40.544Z', 'updatedAt': '2025-04-08T09:44:40.914Z'}
+2025-04-08 12:44:41,126 - API Logger - INFO - Response: 200 https://reqres.in/api/users/582
+2025-04-08 12:44:41,126 - API Logger - INFO - Response Body: {"name":"morpheus","job":"oracle assistant","id":"582","createdAt":"2025-04-08T09:44:40.544Z","updatedAt":"2025-04-08T09:44:41.092Z"}
+2025-04-08 12:44:41,128 - API Logger - INFO - Request: PATCH https://reqres.in/api/users/582
+2025-04-08 12:44:41,128 - API Logger - INFO - Payload: {'name': 'Updated Name', 'job': 'Updated Job'}
+2025-04-08 12:44:41,302 - API Logger - INFO - Response: 200 https://reqres.in/api/users/582
+2025-04-08 12:44:41,302 - API Logger - INFO - Response Body: {"name":"Updated Name","job":"Updated Job","updatedAt":"2025-04-08T09:44:41.272Z"}
+2025-04-08 12:44:41,303 - API Logger - INFO - Request: DELETE https://reqres.in/api/users/582
+2025-04-08 12:44:41,501 - API Logger - INFO - Response: 204 https://reqres.in/api/users/582
+2025-04-08 12:44:41,501 - API Logger - INFO - Response Body: 
