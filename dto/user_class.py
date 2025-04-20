@@ -2,6 +2,8 @@ import os
 from typing import List
 import requests
 
+from utils.logger.logger import log_request, log_response
+
 
 class User:
     """
@@ -78,7 +80,11 @@ class User:
             KeyError: If the expected "data" key is missing in the JSON response.
             JSONDecodeError: If the response body is not valid JSON.
         """
+        url = f"{os.getenv('BASE_URL')}/users?page={page}"
+        log_request("POST", url)
         response = requests.get(f"{os.getenv('BASE_URL')}/users?page={page}")
+        log_response(response)
+        
         if response.status_code != expectedStatusCode:
             raise ValueError(f"Unexpected status code: {response.status_code}")
         assert response.status_code == expectedStatusCode
